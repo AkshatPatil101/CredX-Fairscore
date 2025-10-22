@@ -1,0 +1,86 @@
+{
+  "all_features": [
+    "age",
+    "declared_income",
+    "verified_income",
+    "income_stability",
+    "avg_balance",
+    "savings_ratio",
+    "debt_to_income_ratio",
+    "loan_emi_ratio",
+    "utility_payment_timeliness",
+    "rent_payment_timeliness",
+    "mobile_recharge_freq",
+    "mobile_recharge_var",
+    "upi_txn_count",
+    "upi_avg_txn_size",
+    "merchant_diversity_score",
+    "digital_wallet_usage",
+    "app_finance_ratio",
+    "sim_change_freq",
+    "battery_pattern_score",
+    "past_loans_count",
+    "missed_payments",
+    "avg_days_past_due",
+    "credit_utilization_ratio",
+    "credit_lines_active",
+    "credit_tenure_months",
+    "consent_given",
+    "document_verified"
+  ],
+  "protected_attrs": [
+    "gender",
+    "caste_group",
+    "region",
+    "employment_type"
+  ],
+  "encoded_protected_attrs": [
+    "gender_encoded",
+    "caste_group_encoded",
+    "region_encoded",
+    "employment_type_encoded"
+  ],
+  "demographics": [
+    "age"
+  ],
+  "traditional": [
+    "declared_income"
+  ],
+  "income_features": [
+    "verified_income",
+    "income_stability"
+  ],
+  "financial": [
+    "avg_balance",
+    "savings_ratio",
+    "debt_to_income_ratio",
+    "loan_emi_ratio"
+  ],
+  "alternative_payment": [
+    "utility_payment_timeliness",
+    "rent_payment_timeliness"
+  ],
+  "alternative_digital": [
+    "mobile_recharge_freq",
+    "mobile_recharge_var",
+    "upi_txn_count",
+    "upi_avg_txn_size",
+    "merchant_diversity_score",
+    "digital_wallet_usage",
+    "app_finance_ratio",
+    "sim_change_freq",
+    "battery_pattern_score"
+  ],
+  "credit_history": [
+    "past_loans_count",
+    "missed_payments",
+    "avg_days_past_due",
+    "credit_utilization_ratio",
+    "credit_lines_active",
+    "credit_tenure_months"
+  ],
+  "verification": [
+    "consent_given",
+    "document_verified"
+  ]
+}

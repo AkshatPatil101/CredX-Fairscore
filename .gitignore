@@ -1,0 +1,10 @@
+# Ignore Node.js dependencies in any folder
+node_modules/
+
+# Ignore Python cache in any folder
+__pycache__/
+*.pyc
+
+# You can also add other common files
+.DS_Store
+.env
