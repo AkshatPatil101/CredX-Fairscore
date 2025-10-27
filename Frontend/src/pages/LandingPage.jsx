@@ -105,7 +105,7 @@ const Header = () => {
         <div className="navbar-start">
           <Link to="/" className="btn btn-ghost gap-2">
             <Sparkles className="w-5 h-5" />
-            <span className="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+            <span className="text-3xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
               CredX 
             </span>
           </Link>
@@ -113,10 +113,10 @@ const Header = () => {
 
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal p-0 gap-2">
-            <li><a className="hover:text-primary transition-colors">How It Works</a></li>
-            <li><a className="hover:text-primary transition-colors">Our Platform</a></li>
-            <li><a className="hover:text-primary transition-colors">About Us</a></li>
-            <li><a className="hover:text-primary transition-colors">Fairness</a></li>
+            <li><a className="hover:text-primary text-xl transition-colors">How It Works</a></li>
+            <li><a className="hover:text-primary text-xl transition-colors">Our Platform</a></li>
+            <li><a className="hover:text-primary text-xl transition-colors">About Us</a></li>
+            <li><a className="hover:text-primary text-xl transition-colors">Fairness</a></li>
           </ul>
         </div>
 
@@ -174,10 +174,6 @@ const HeroSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <div className="inline-flex items-center gap-2 bg-primary/10 px-4 py-2 rounded-full mb-6 border border-primary/20">
-                <Zap className="w-4 h-4 text-primary" />
-                <span className="text-sm font-medium">AI-Powered Credit Scoring</span>
-              </div>
             </motion.div>
 
             <motion.h1
@@ -490,7 +486,7 @@ const Footer = () => {
             <div className="flex items-center gap-2 mb-4">
               <Sparkles className="w-6 h-6 text-primary" />
               <span className="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                FairScore AI
+                CredX
               </span>
             </div>
             <p className="text-sm text-base-content/70 mb-4">
