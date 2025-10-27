@@ -144,18 +144,6 @@ export default function App() {
           <button className="w-10 h-10 flex items-center justify-center rounded-lg bg-[#1A1A1A] text-white">
             <Home className="w-6 h-6" />
           </button>
-          <button className="w-10 h-10 flex items-center justify-center rounded-lg text-gray-600 hover:text-white">
-            <CreditCard className="w-6 h-6" />
-          </button>
-          <button className="w-10 h-10 flex items-center justify-center rounded-lg text-gray-600 hover:text-white">
-            <FileText className="w-6 h-6" />
-          </button>
-          <button className="w-10 h-10 flex items-center justify-center rounded-lg text-gray-600 hover:text-white">
-            <MessageSquare className="w-6 h-6" />
-          </button>
-          <button className="w-10 h-10 flex items-center justify-center rounded-lg text-gray-600 hover:text-white">
-            <AtSign className="w-6 h-6" />
-          </button>
         </nav>
         <button className="w-10 h-10 flex items-center justify-center rounded-lg text-gray-600 hover:text-white mb-4">
           <Settings className="w-6 h-6" />
