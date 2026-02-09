@@ -48,7 +48,7 @@ CredX is a next-generation credit evaluation platform designed to bridge the gap
 
 | Homepage | Application Form | Credit Dashboard |
 | :---: | :---: | :---: |
-| <img src="frontend/assets/credx_homepage.png" width="200" /> | <img src="frontend/assets/credx_form_page.png" width="200" /> | <img src="frontend/assets/credx_credit_score_page.png" width="200" /> |
+| <img src="Frontend/assets/credx_homepage.png" width="200" /> | <img src="Frontend/assets/credx_form_page.png" width="200" /> | <img src="Frontend/assets/credx_credit_score_page.png" width="200" /> |
 
 ---
 
